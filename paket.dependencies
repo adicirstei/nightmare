@@ -1,0 +1,10 @@
+framework: > net45
+
+source https://www.nuget.org/api/v2
+nuget FAKE
+
+nuget Unquote
+nuget FsCheck
+nuget FsCheck.Xunit
+
+nuget xunit.runner.console
